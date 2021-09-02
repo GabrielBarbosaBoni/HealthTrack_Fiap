@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(3, 130, 145, 0.8);
+    position: fixed;
+}
+
+footer{
+width: 100%;
+height: 120px;
+background-color: rgba(0, 52, 58, 0.8);
+position: absolute;
+bottom: 0px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color:rgba(236, 247, 248, 0.8); ;
+  }
+
+.icones{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    letter-spacing : 20px;
+    transform: translate(-50%, -50%) 
+    
+}
+
+.batata{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    letter-spacing : 0.2px;
+    word-spacing: 10px;
+    color: rgba(0, 0, 5, 0.699);
+    font-size: 19px;
+    transform: translate(-50%, -50%) 
+    
+}
+
+.Torrone{
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    letter-spacing : 0.2px;
+    word-spacing: 0.2px;
+    color: rgba(9, 9, 27, 0.788);
+    font-size: 14px;
+    transform: translate(-50%, -50%) 
+}
+.galeria{
+    margin: 70px auto;
+    position:relative;
+    overflow: hidden;
+    
+  }
+  .foto{
+    position: absolute;
+    opacity: 1;
+    animation-name: animacao;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes animacao{
+    25%{
+      opacity: 1;
+    }
+    50%{
+      opacity: 1;
+    }
+  }
+  
+.foto:nth-child(1){
+
+}
+.foto:nth-child(2){
+  animation-delay: 3s;
+}
+.foto:nth-child(3){
+  animation-delay: 6s;
+  
+}
+.foto:nth-child(4){
+  animation-delay: 9s;
+}
